@@ -96,7 +96,12 @@ header nav{
     margin: auto;
     margin-right: 25px;
   }
-  
+  .navbar a:hover {
+    text-decoration:underline;
+  }
+  ul{
+      text-align:left;
+  }
   .navbar ul {
       list-style-type: none;
       margin: 0;
@@ -141,9 +146,6 @@ section{
     text-align:center;
     padding:10vh;
 }
-section:first-of-type{
-    margin-top:8vh;
-}
 .img--hero{
     max-width: inherit;
     width:100%;
@@ -172,6 +174,15 @@ section:first-of-type{
 
 .flex--container-text,.contact--form-text{
     padding:30px;
+    position:relative;
+}
+.flex--container-text div, .contact--form-text div{
+    width:100%;
+    padding:25px;
+    position:absolute;
+    top:25%;
+
+    transform:translateX( -50px)
 }
 
 
