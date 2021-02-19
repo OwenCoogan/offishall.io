@@ -284,7 +284,6 @@ blockquote::before {
 }
 
 .banner--free-trial{
-    background-color:var(--main-color);
     color:white;
 }
 
@@ -323,3 +322,41 @@ input[type='color']:focus, input[type='date']:focus, input[type='datetime']:focu
     border:0.1rem solid var(--main-color-active);
 }
 
+.about--page .flex--container img{
+    width:50%;
+    padding:40px;
+}
+
+.flex--container{
+    position:relative;
+}
+
+.about--page .flex--container:nth-child(2n+3){
+    flex-direction: row-reverse;
+}
+
+.description--board{
+    width:50%;
+    width:35%;
+    width:50px;
+    padding:40px;
+    text-align:center;
+    position:absolute;
+    right:0;
+    top:25%;
+}
+.about--page .flex--container:nth-child(2n+3) .description--board{
+    left:0 !important; 
+}
+.banner--free-trial{
+    padding:0;
+}
+
+.banner--free-trial img {
+    width:100%;
+    padding:0;
+}
+
+.offer--B2B,.offer--B2B2C{
+    padding:22px;
+}
