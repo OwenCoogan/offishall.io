@@ -33,7 +33,7 @@ html {
 }
 
 body {
-    font-size: 1.5rem;
+    font-size: 1.85rem;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -158,7 +158,7 @@ section{
     background-color:#3660F5;
 }
 .offer--type{
-    margin-top:15vh !important;
+    margin-top:0 !important;
 }
 
 
@@ -186,9 +186,12 @@ section{
     width:100%;
     padding:25px;
     position:absolute;
-    top:25%;
+    top:5%;
 
     transform:translateX( -50px)
+}
+.full--width-banner{
+    width:100%;
 }
 
 
@@ -364,7 +367,8 @@ input[type='color']:focus, input[type='date']:focus, input[type='datetime']:focu
 }
 
 .offer--B2B,.offer--B2B2C{
-    padding:22px;   
+    padding:22px;  
+    position:relative; 
 }
 .functionnality--1 , .functionnality--2{
     position:relative;
@@ -375,4 +379,18 @@ input[type='color']:focus, input[type='date']:focus, input[type='datetime']:focu
     top: 50%;
     left: 100%;
     transform: translate( -95% , -50% );
+}
+
+.concept-page section{
+    padding:10vh 2vh;
+}
+
+.offer--active div{
+    padding:26px;
+}
+
+.contact--form input[type='submit']{
+    text-align: center;
+    text-decoration: none;
+    font-size:1.85rem;
 }
