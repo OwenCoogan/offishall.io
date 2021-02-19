@@ -23,7 +23,7 @@ main section{
     max-width:1496px;
     margin:auto;
 }
-.header--img,.banner--free-trial{
+.header--img,.banner--free-trial,.demo--section{
     max-width:100%;
 }
 .button, button, input[type='button'], input[type='reset'], input[type='submit']{
@@ -194,7 +194,7 @@ section{
 
     transform:translateX( -50px)
 }
-.full--width-banner{
+.full--width-banner,.demo--section{
     width:100%;
 }
 
@@ -389,6 +389,8 @@ input[type='color']:focus, input[type='date']:focus, input[type='datetime']:focu
     padding:4vh 2vh;
 }
 .concept--text{
+    
+    padding:4vh 18vh !important;
     padding-top:10vh !important;
 }
 
