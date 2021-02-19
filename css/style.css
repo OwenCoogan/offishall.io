@@ -388,6 +388,18 @@ input[type='color']:focus, input[type='date']:focus, input[type='datetime']:focu
 .concept-page section{
     padding:4vh 2vh;
 }
+.functionnality--range img,.functionnality--range p{
+    width:50%;
+    margin: auto;
+}
+.functionnality--range img{
+    padding:50px;
+}
+.functionnality--range{
+    flex-direction: row-reverse;
+}
+.functionnality--range p{width:100% !important;
+}
 .concept--text{
     
     padding:4vh 18vh !important;
