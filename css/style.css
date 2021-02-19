@@ -19,7 +19,10 @@
     -o-box-sizing: border-box;
     box-sizing: border-box
 }
-
+main{
+    max-width:1496px;
+    margin:auto;
+}
 .button, button, input[type='button'], input[type='reset'], input[type='submit']{
     font-weight:300;
 }
@@ -164,8 +167,11 @@ section{
     display:flex;
     margin-top:50px;
 }
-.functionnality--1,.functionnality--2 {
+.functionnality--1 .functionnality--1-text ,.functionnality--1 img,.functionnality--2 .functionnality--2-text,.functionnality--2 img {
     width:50%;
+}
+.functionnality--1-text , .functionnality--2-text{
+    padding:25px;
 }
 
 .flex--container div{
@@ -243,7 +249,7 @@ blockquote::before {
     width:100%;
 }
 
-.functionnality--1-text .flex--container .cta--b2b{
+.functionnality--1-text .flex--container .cta--b2b,.testimonials .cta--b2b{
     width:100%;
     display:inline-block;
     color:white;
@@ -359,4 +365,14 @@ input[type='color']:focus, input[type='date']:focus, input[type='datetime']:focu
 
 .offer--B2B,.offer--B2B2C{
     padding:22px;   
+}
+.functionnality--1 , .functionnality--2{
+    position:relative;
+}
+
+.concept-page .functionnality--1 .functionnality--1-text{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate( -95% , -50% );
 }
